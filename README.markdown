@@ -10,8 +10,8 @@ Description:
 
 Demo:
 --------
-http://joseph.nlpweb.org/blog    
-http://blog.ashwani.co.in
+http://joseph.nlpweb.org    
+http://blog.ashwani.co.in/blog/2013-01-19/flash-based-tag-cloud-plugin-for-octopress-site/
 
 Syntax:
 -------
@@ -30,6 +30,11 @@ In template files, add the following markups.
     <section>
       <h1>Tag Cloud</h1>
         <span id="tag-cloud">{% tag_cloud bgcolor:#ffffff tcolor1:#00aa00 tcolor2:#00dd00 hicolor:#ff3333%}</span>
+    </section>
+
+    <section>
+      <h1>Category Cloud</h1>
+        <span id="category-cloud">{% category_cloud bgcolor:#ffffff tcolor1:#00aa00 tcolor2:#00dd00 hicolor:#ff3333%}</span>
     </section>
 
 
